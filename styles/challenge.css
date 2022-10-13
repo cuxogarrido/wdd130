@@ -1,0 +1,34 @@
+body{
+   margin: 0;
+   width: 1280px;
+   
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  width: 100%;
+  height: 400px;
+  
+}
+
+
+.img-circle{
+    flex-flow: row;  
+    object-fit: contain;
+    width: 20%;
+    vertical-align: middle;
+    margin: 50px;
+    border: 10px solid #332d2d;
+    border-radius: 50%;
+}
+.container {
+    background-color: gray;
+    box-sizing: border-box;
+
+}
+
+.background-img{
+    vertical-align: middle;
+}

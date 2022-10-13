@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alkalami&family=Roboto&display=swap');
+
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
@@ -12,6 +15,11 @@
     margin: 0 auto;
     
 }
+.home-grid{
+    display: flex;
+    flex-direction: column;
+   
+}
 /*centrar */
 
 
@@ -20,7 +28,11 @@ nav a{
 text-align: center;
 color: rgb(255, 255, 255);
 text-decoration: none;
-
+font-size: 1.2em;
+padding:30px 30px;
+border: 1px solid rgba(0, 0, 0, 0.053);
+border-radius: 30px;
+margin: 0;
 }
 #hero-msg h1, #hero-msg h4{
 
@@ -43,9 +55,17 @@ text-align: center;
 
 body{
    background-color: rgba(242, 113, 43);
+   padding: 0;
+   margin: 0;
+   font-family: "Roboto","San-serif","Arial";
+   font-size: large;
 }
 header{
     background-color: rgba(144, 190, 109,0.5);
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 nav a:hover{
     color: white;
@@ -61,9 +81,7 @@ nav a:hover{
     height: 725px;
     background-color: #f9414446;
 }
-.msg{
-    background-color: #43AA8B;
-}
+
 footer{
     background-color: rgba(144, 190, 109,0.5);
 }
@@ -73,27 +91,84 @@ footer{
 
 
 nav a:hover{
-    background-color: #43AA8B;
+    background-color: rgba(242, 113, 43);
 }
 
 .home-title{
     color: rgb(79, 0, 0);
+    font-family:"Aclonica","Alkalami","arial";
+    font-size: 2.5em;
+
 }
 h4{
     color: white;
+    font-size: 1.5em;
+}
+
+h2{
+    margin: 0;
+    padding: 0; 
 }
 .book, .join{
     color: #000000;
     text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 10px;
+   
 }
 .book:hover, .join:hover{
+    background-color: #523333;
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
+
+
+
 .msg h2{
-    color: rgb(50, 19, 19);
+    color: rgb(255, 255, 255);
+    background-color: #0000003b;
+    padding: 30px;
+    
 }
-.msg p{color: white;}
+.msg p{
+    color: white;
+    font-size: 2em;
+}
+.msg{
+    background-color: #43AA8B;
+    display: flex;
+    flex-direction: column;
+}
+
+.join{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+}
+#hero-msg{
+    margin: 30px;
+    padding: 10px;
+} 
+
+
+
+
+.card-img{
+    border:4px solid gray;
+    border-radius: 50px;
+}   
+.home-grid section{
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+
+footer{
+  
+    padding: 100px;
+}
 
 footer h3{
     color: rgb(255, 255, 255);
@@ -111,18 +186,29 @@ footer a:hover{
 
 /* widths*/
 
-.icon,.logo{
+.icon{
     width: 80px;
+   
+}
+
+.logo{
+    width: 100px;
 }
 #hero-img{
     width: 100%;
+    
+    
 }
 
 footer p {
     font-size: 1.2em;
+    color: white;
 } 
 
 footer p a:hover{
     text-decoration: underline;
+}
+.social a{
+    margin-right: 50px;
 }
 
