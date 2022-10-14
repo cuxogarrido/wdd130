@@ -156,9 +156,13 @@ h2{
 
 
 .card-img{
-    border:4px solid gray;
+    border:10px solid rgb(0, 0, 0);
     border-radius: 50px;
-}   
+}  
+
+main section img {
+    box-sizing: border-box;
+}
 .home-grid section{
     margin-bottom: 100px;
     width: 100%;
