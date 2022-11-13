@@ -348,6 +348,68 @@ footer p a:hover{
 
 
 
+/* CCS FOR THE RIVER PAGE */
+
+#container_river_page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+   
+
+}
+#img-river-page{
+    width: 600px; 
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.174);
+    
+    
+   
+}
+#title_river_page{
+    grid-column: 1/10;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    margin: 5%;
+  
+    
+    font-family:"Aclonica","Alkalami","arial";
+
+
+}
+.article{
+    grid-column: 4/10;
+    padding: 0px 20px;
+   
+    
+}
+.article p{
+    color: rgb(50, 39, 39);
+    font-size: 25px;
+    line-height: 30px;
+   
+}
+.article h2{
+    color:#364a50 ;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+span{
+   
+    line-height: 35px;
+    font-size: 30px;
+}
+
+
+
+/* END OF CSS FOR THE RIVER PAGE*/
+
+
+
 
 
 
