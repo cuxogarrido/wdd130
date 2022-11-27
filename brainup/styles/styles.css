@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap');
+.content{
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+   
+
+}
+
+
+
+/* css para el header  */
+
+header{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 280px;
+    margin: 50px;
+    
+}
+.img-container{
+    grid-column: 1/6;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+header nav{
+
+    grid-column: 2/6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background:#fb8600d0;
+    padding: 18px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-family: roboto;
+    
+}
+header nav a:hover{
+    background:#000000d0;
+}
+
+.social{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.social a img{
+    width: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+/* Estilos para imagen principal con el titulo*/ 
+
+
+.head_img{
+   display: grid;
+   grid-template-columns: 1fr ;
+   grid-template-rows: 1fr;
+   
+    
+}
+.head_img img{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.head_img h1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    text-align: center;
+    align-self: center;
+    color: #ffffffff;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.468);
+    font-size: 60px;
+    font-family: Quicksand;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* estilos para las cajas de contenido */ 
+
+
+.container_boxes{
+
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+   
+    
+
+
+}
+.img-box{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.container_boxes section{
+    width: 33%;
+    height: 300px;
+    
+}
+section p{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: roboto;
+    line-height: 25px;
+    font-size: 18px;
+    
+}
+
+
+
+/*estilos LAST WORDS*/
+
+.last_words{
+    display: flex;
+    text-align: center;
+    background:#bde0fe;
+    height: 500px;
+    margin-top: 300px;
+    align-items: center;
+    margin-bottom: 30px;
+   
+
+}
+
+.last_words img{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 100px;
+    margin-left: 100px;
+    
+}
+.last_words p{
+    font-size: 25px;
+    font-family: roboto;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+
+
+/* css para el footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    background-color: #000000b3;
+
+}
+
+footer p{
+    color: white;
+    font-family: roboto;
+    font-size: large;
+}
+footer a{
+    color: white;
+}
