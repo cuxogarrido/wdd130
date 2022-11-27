@@ -114,12 +114,12 @@ header nav a:hover{
     height: 300px;
     border-radius: 10px;
 }
-.container_boxes section{
+.container_boxes div{
     width: 33%;
     height: 300px;
     
 }
-section p{
+div p{
     width: 70%;
     margin: 0 auto;
     margin-top: 20px;
@@ -179,6 +179,7 @@ footer p{
     color: white;
     font-family: roboto;
     font-size: large;
+    text-align: center;
 }
 footer a{
     color: white;
