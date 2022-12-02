@@ -1,11 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap');
 .content{
+    
     max-width: 1600px;
-    height: 100%;
+    
     margin: 0 auto;
+    margin-top: 0;
+    text-align: center;
    
 
+}
+.logo-icon-show {display: block;}
+.logo_hide{
+    display:none;
 }
 
 
@@ -13,28 +20,46 @@
 /* css para el header  */
 
 header{
-    display:grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    height: 280px;
-    margin: 50px;
+  
+    
+    
+    position: sticky;
+    top: 0;
+   
+    background-color: white;
+    width: 100%;
+    margin-top: -10px;
     
 }
-.img-container{
-    grid-column: 1/6;
+#img-container{
+    
     text-align: center;
     border-bottom: 1px solid black;
+   
+    
 }
-header nav{
 
-    grid-column: 2/6;
+
+#img-container img{
+    
+   width: 150px;
+   
+}
+
+header nav{
+   
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
+
     
+   
     
 }
-header nav a{
+header nav >a{
+   
     text-decoration: none;
     color: rgb(255, 255, 255);
     background:#fb8600d0;
@@ -43,6 +68,7 @@ header nav a{
     border-radius: 10px;
     font-size: 1.2em;
     font-family: roboto;
+   
     
 }
 header nav a:hover{
@@ -61,6 +87,8 @@ header nav a:hover{
     width: 50px;
     border-radius: 10px;
     padding: 10px;
+    grid-column: 1/2;
+    
 }
 
 
@@ -70,12 +98,18 @@ header nav a:hover{
 
 .head_img{
    display: grid;
-   grid-template-columns: 1fr ;
+   
+   grid-template-columns: 1fr  ;
    grid-template-rows: 1fr;
+ 
+   -webkit-transition: opacity 0.4s ease-in-out;
+   -o-transition: opacity 0.4s ease-in-out;
+   transition: opacity 0.4s ease-in-out;
    
     
 }
 .head_img img{
+    width: 100%;
     grid-row: 1/2;
     grid-column: 1/2;
 }

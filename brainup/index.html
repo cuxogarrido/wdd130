@@ -14,20 +14,13 @@
 
             
 
-            <header>
+            <header id="header">
 
-            <div class="img-container">
+            <div id="img-container">
                 <img src="images/logo.png" alt="logotipo brain up" class="logo">
             </div>    
             <nav>
-                    
-                <a href="index.html">Inicio</a>
-                <a href="article.html">Article</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="#">Site Plan</a>
-                <a href="#">Miscelaneo</a>
-            </nav>
-            <div class="social">
+                <div class="social">
                     <a href="https://facebook.com">
                         <img src="images/facebook.png" alt="fb icon">
                     </a>
@@ -38,6 +31,15 @@
                         <img src="images/instagram.png" alt="instagram icon">
                     </a>
             </div>
+                    
+                <a href="index.html">Inicio</a>
+                <a href="article.html">Article</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="#">Site Plan</a>
+                <a href="#">Miscelaneo</a>
+                
+            </nav>
+            
             
             </header>
 
@@ -108,16 +110,19 @@
 
 
 
+<script>
 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 650) {
+               $('#img-container').addClass('logo_hide');
+              $('#img-container').removeClass('logo_hide');
+            } else {
+               $('#img-container').removeClass('logo-icon-show');
+              $('#img-container').addClass('logo-icon-hide');
+            }
+        });
 
+</script>
 
-
-
-
-
-
-
-
-    
 </body>
 </html>
