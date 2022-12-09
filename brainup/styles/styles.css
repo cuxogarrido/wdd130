@@ -256,7 +256,7 @@ footer a{
     font-family: Quicksand;
    
 }
-.grid_container section{
+.grid_container div{
     display: flex;
     flex-direction: column;
     grid-column: 4/7;
@@ -264,7 +264,7 @@ footer a{
     margin-top: 50px;
     
 }
-.grid_container section p{
+.grid_container div p{
     font-family: Quicksand;
     line-height: 30px;
     background-color: #fb86002e;
